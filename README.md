@@ -20,7 +20,12 @@ Para essa entrega, utilizamos o projeto de [home](https://gulliver-bootstrap.net
 
 ### Equipe
 
-Carlos Henrique Mantovani Sammartin de Abreu, Layla Coralina Martinez e Marcel Scognamiglio De Campos Lourenço
+* Carlos Henrique Mantovani Sammartin de Abreu
+* Layla Coralina Martinez
+* Marcel Scognamiglio De Campos Lourenço
 
+### Visualização do projeto
+
+https://gulliver-api.netlify.app/
 
 07 de abril de 2022
