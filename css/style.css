@@ -1,0 +1,334 @@
+/* Fonte do tema - ROBOTO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* Reseta links bootstrap */
+.nav a {
+    margin: 0;
+    text-decoration: none;
+    color: #836FFF;
+}
+
+a:hover {
+    color: #000 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #000
+}
+
+/* Universo para botões */
+
+.btn {
+    background-color: #836FFF;
+    border-color: #836FFF;
+}
+
+.btn:hover {
+    background-color: #836FFF;
+    opacity: 0.8;
+    border-color: #836FFF;
+
+}
+
+/* Barra de busca */
+.form-control:focus {
+    border-color: #836FFF;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
+.form-control {
+    height: 50px;
+}
+
+
+/* Estilo do top bar */
+
+.top-bar {
+    height: 45px;
+    padding: 1.5vh;
+    background-color: #63FFB5;
+    border: none;
+    font-size: 1em;
+    color: #000;
+}
+
+/* Estilo do menu */
+
+.nav-link {
+    color: #836FFF
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #836FFF;
+    border-radius: 7px;
+
+}
+
+/* Estilo da seção Hero */
+.hero {
+    height: 60vh;
+    background-image: url(/imagens/hero_background.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    color: #FFF;
+    text-shadow: -1.5px 1.5px 1px rgb(20, 20, 20);
+}
+
+.card-hero {
+    color: #FFF;
+    background-color: #836FFF;
+    border-radius: 4px;
+    border: 2px solid #836FFF;
+    margin: 25px 2px 0;
+    padding: 20px 10px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-hero:hover {
+    background-color: #FFF;
+    color: #836FFF;
+}
+
+.busca-hero {
+    border: 1.4px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.section-title {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.card-body {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fotos {
+    border-radius: 15%;
+}
+
+.card-first-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.card-opinions {
+    display: flex;
+    justify-content: center;
+}
+
+.card-opinions p {
+    margin-left: 1vw;
+    font-size: 0.8em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+}
+
+.card-stars {
+    font-size: 10px;
+    color: #FFE957;
+}
+
+.card-text {
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.card-cta {
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.jumbo {
+    background-image: url(/imagens/call-to-action.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(80, 80, 80);
+    padding: 20px;
+    height: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cta-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.home-features {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.block3col {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.direitos{
+    display: flex;
+}
+
+.direitos p{
+    margin: auto 1vw;
+}
+
+.redes i{
+    font-size: 1.2em;
+    margin: auto 10px;
+}
+
+
+/* Responsividade do bloco de alerta*/
+
+@media (max-width: 900px) {
+
+    .top-bar {
+        height: 60px;
+    }
+
+    .section-title {
+        font-size: 2.2em;
+        font-weight: 700;
+    }
+
+    .card-hero{
+        height: 92px;
+    }
+
+    .botao-dica{
+        display: flex;
+        align-items: center;
+    }
+
+    .botao-atividade{
+        padding: 18% 10%;
+    }
+
+    .card-title {
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+
+    .card-opinions {
+        text-align: right;
+        flex-direction: column;
+    }
+
+    .card-opinions p {
+        margin-left: 1vw;
+        font-size: 0.6em;
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        text-align: right;
+    }
+
+    .card-stars {
+        font-size: 0.6em;
+        color: #FFE957;
+    }
+
+    .card-text {
+        font-size: 0.9em;
+        font-weight: 300;
+    }
+
+    .direitos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .direitos p{
+        font-size: 0.8em;
+    }
+
+    .direitos img{
+        width: 13vw;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .top-bar {
+        height: 75px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .botao-atividade{
+        padding: 18% 20%;
+    }
+
+    .card-title {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    .jumbo {
+        background-position: -300px;
+        background-repeat: no-repeat;
+        background-size: 56em;
+    }
+    
+
+    .bottom-footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .redes{
+        margin-top: 2vh;
+    }
+
+    .direitos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .direitos img{
+        width: 25vw;
+    }
+
+}
