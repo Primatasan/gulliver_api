@@ -4,7 +4,7 @@ const options = { // cabeçalho (header) com opções para fetch
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Host': 'hotels4.p.rapidapi.com',
-		'X-RapidAPI-Key': '36c518cb59msh211e6af144467dcp1a54f7jsna62e2d1e2921'
+		'X-RapidAPI-Key': 'b9bf594e8emshb22a76bd2c9f8fep137c85jsna47fe0a2e3d6'
 	}
 };
 
