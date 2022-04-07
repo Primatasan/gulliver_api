@@ -80,6 +80,7 @@ a {
     background-image: url(/imagens/hero_background.jpg);
     background-size: cover;
     background-repeat: repeat;
+    background-position: center;
     color: #FFF;
     text-shadow: -1.5px 1.5px 1px rgb(20, 20, 20);
 }
