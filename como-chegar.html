@@ -44,6 +44,12 @@
     </ul>
   </header>
   <main>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Como chegar</li>
+      </ol>
+    </nav>
     <!-- Hero com busca e cards de atividades -->
     <div class="container-fluid  d-grid align-items-center hero"
       style="background-image: url('/imagens/hero_como-chegar.jpeg')">
@@ -65,7 +71,7 @@
         <a class="col" href="/locomocao.html">
           <div class="card-hero">Como se locomover</div>
         </a>
-        <a class="col" href="/dicas-uteis">
+        <a class="col" href="/dicas-uteis.html">
           <div class="card-hero botao-dica">O que preciso saber</div>
         </a>
         <a class="col" href="/entretenimento.html">
@@ -79,14 +85,26 @@
     <section id="container" class="container-flex home-features">
       <div class="block3col row  mx-5 two-sided">
         <div class="left">
-        <h3>Há 6 rotas para ir de Lisboa para Aeroporto Lisbon (LIS) de ônibus, metrô, táxi,
-          traslado, limusine ou a pé</h3>
+        <h3>Como chegar em Lisboa – descubra a melhor maneira!</h3>
         <p>A capital de Portugal e a cidade mais populosa do país. Tem uma população de 506 892
           habitantes, dentro dos seus limites administrativos. Na Área Metropolitana de Lisboa, residem 2 821 697
           pessoas (2011), sendo por isso a maior e mais populosa área metropolitana do país. Lisboa é o centro político
           de Portugal, sede do Governo e da residência do chefe de Estado. É o "farol da lusofonia" (Daus): a Comunidade
           dos Países de Língua Portuguesa (CPLP) tem a sua sede na cidade. É ainda a capital mais a ocidente do
           continente europeu na costa atlântica.</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Selecione a origem</option>
+            <option value="1">Brasil</option>
+            <option value="2">Europa</option>
+            <option value="3">Outros lugares do mundo</option>
+          </select>
+          
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Selecione o transporte</option>
+            <option value="1">Avião</option>
+            <option value="2">Navio</option>
+            <option value="3">Ônibus</option>
+          </select>
         </div>
         <div class="right">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d199160.00996720494!2d-9.160203!3d38.743627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1653453089714!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

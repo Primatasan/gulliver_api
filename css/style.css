@@ -73,7 +73,27 @@ a {
     border-radius: 7px;
 
 }
+.breadcrumb {
+    justify-content: center;
+}
+.breadcrumb li {
+    padding: 0.2rem 1rem;
+    background-color: #ddd;
+    border-radius: 7px;
+    margin: 0.2rem;
 
+}
+
+.breadcrumb .home a {
+    color: white;
+}
+.breadcrumb .active {
+    background-color: #836FFF;
+    color: #fff;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    display: none;
+}
 /* Estilo da seção Hero */
 .hero {
     height: 60vh;
