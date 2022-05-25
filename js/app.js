@@ -1,5 +1,13 @@
 const main = document.getElementById('main'); // pega o main na home para usarmos para exibir listas
+const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLiveExample)
 
+    toast.show()
+  })
+}
 const options = { // cabeçalho (header) com opções para fetch
 	method: 'GET',
 	headers: {

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <!-- Chamadas do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="/js/app.js"></script>
+
+  <!-- Chamada da stylesheet proprietária -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Como chegar – Gulliver</title>
+</head>
+
+<body>
+
+
+  <!-- Barra de topo com lembrete de geolocalização -->
+  <div class="container-fluid  top-bar alert alert-primary text-center" role="alert">
+    <p>Ative sua geolocalização clicando em <b>Localize-me</b> para ver opções pertos de você</p>
+  </div>
+
+  <!-- Header com o logo e menu de navegação -->
+  <header class="container d-flex flex-wrap justify-content-center px-4 py-3 mb-4 border-bottom">
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <span class="fs-4"><img src="/imagens/Logo-Gulliver.png" class="img-fluid" alt="Logo Projeto Gulliver"></span>
+    </a>
+
+    <ul class="nav nav-pills align-items-center">
+      <li class="nav-item">
+        <button id="location-button" class="nav-link active" aria-current="page">Localiza-me!</button></li>
+      <div id="output"></div>
+      <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Inscrever-me</a></li>
+    </ul>
+  </header>
+  <main>
+    <!-- Hero com busca e cards de atividades -->
+    <div class="container-fluid  d-grid align-items-center hero" style="background-image: url('/imagens/hero_locomocao.webp')">
+      <div class="px-4 py-5 my-2 text-center">
+        <h1 class="display-5 fw-bold">Como se locomover</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Confira os melhores meios de transporte para seu trajeto</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid botoes">
+      <div class="row row-cols-8 text-center botoes">
+        <a class="col" href="/como-chegar.html">
+          <div class="card-hero">Como chegar</div>
+        </a>
+        <a class="col" href="/hospedagem.html">
+          <div class="card-hero">Onde se hospedar</div>
+        </a>
+        <a class="col" href="/locomocao.html">
+          <div class="card-hero">Como se locomover</div>
+        </a>
+        <a class="col" href="/dicas-uteis.html">
+          <div class="card-hero botao-dica">O que preciso saber</div>
+        </a>
+        <a class="col" href="/entretenimento.html">
+          <div class="card-hero botao-atividade">O que fazer</div>
+        </a>
+        <a class="col" href="/restaurantes.html">
+          <div class="card-hero">Onde comer</div>
+        </a>
+      </div>
+    </div>
+    <section id="container" class="container-flex home-features">
+      <div class="block3col row mx-5 two-sided">
+        <div class="left">
+        <h3>Há 6 rotas para ir de Lisboa para Aeroporto Lisbon (LIS) de ônibus, metrô, táxi,
+          traslado, limusine ou a pé</h3>
+        <p>A capital de Portugal e a cidade mais populosa do país. Tem uma população de 506 892
+          habitantes, dentro dos seus limites administrativos. Na Área Metropolitana de Lisboa, residem 2 821 697
+          pessoas (2011), sendo por isso a maior e mais populosa área metropolitana do país. Lisboa é o centro político
+          de Portugal, sede do Governo e da residência do chefe de Estado. É o "farol da lusofonia" (Daus): a Comunidade
+          dos Países de Língua Portuguesa (CPLP) tem a sua sede na cidade. É ainda a capital mais a ocidente do
+          continente europeu na costa atlântica.</p>
+        </div>
+        <div class="right" style="background-color: rgb(246, 246, 246); padding: 1rem">
+          <div class="trajetos">
+            <h4>Transporte recomendado pelo Gulliver</h4>
+            <figure>
+              <img  src="/imagens/Screen Shot 2022-05-25 at 00.59.38.png" alt="">
+              <img src="/imagens/Screen Shot 2022-05-25 at 00.59.43.png" alt="">
+            </figure>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-flex jumbo text-center">
+        <div class="px-4 py-5 my-5 text-center">
+          <h1 class="display-5 cta-title fw-bold">Chamada para ação</h1>
+          <button class="btn btn-primary btn-lg" type="button">Example button</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div class="container">
+    <footer class="py-3">
+      <div class="row d-flex align-items-center justify-content-around">
+        <div class="col-2 d-none d-lg-block">
+          <h5>Lista de links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 d-none d-lg-block">
+          <h5>Lista de links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 d-none d-lg-block">
+          <h5>Lista de links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 d-none d-lg-block">
+          <h5>Lista de links</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
+          </ul>
+        </div>
+
+        <div class="col-2 big-logo d-none d-lg-block">
+          <img src="imagens/Logo-Gulliver_G.png" class="img-fluid" alt="Logo gulliver">
+        </div>
+
+        <div class="container p-4 my-4 border-top bottom-footer">
+          <div class="direitos">
+            <h3><img src="/imagens/Logo-Gulliver.png" alt=""></h3>
+            <p>© 2021 Gulliver, Inc. All rights reserved.</p>
+          </div>
+          <div class="redes">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+          </div>
+        </div>
+    </footer>
+  </div>
+
+</body>
+
+<script>
+  $('#location-button').click(function () {
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function (position) {
+        console.log(position);
+        $.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," +
+          position.coords.longitude + "&sensor=false",
+          function (data) {
+            console.log(data);
+          })
+        var img = new Image();
+        img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," +
+          position.coords.longitude + "&zoom=13&size=800x400&sensor=false";
+        $('#output').html(img);
+      });
+
+    }
+  });
+</script>
+
+</html>
