@@ -1,4 +1,4 @@
-# Aplicações em Cloud Computing
+# Projeto "Gulliver"
 
 ## Update
 Com o objetivo de organizar o projeto no modelo MVC e organização de pastas para receber novas páginas, o projeto foi atualizado no últimos commits.
