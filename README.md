@@ -1,5 +1,8 @@
 # Aplicações em Cloud Computing
 
+## Update
+Com o objetivo de organizar o projeto no modelo MVC e organização de pastas para receber novas páginas, o projeto foi atualizado no últimos commits.
+
 ## Introdução
 
 Com o objetivo de atender os objetivos do exercício “Aplicações em Cloud Computing” do curso de sistemas para internet da **FIAP**, implementamos a API [Hotels4](https://apidojo.github.io/#hotels-list), uma API freemium da [ApiDojo](https://apidojo.net/) que fornece dados de hotéis ao redor do mundo, disponibilizando localização, preços, recomendações e outros dados relevantes para o projeto Gulliver.
@@ -21,11 +24,10 @@ Para essa entrega, utilizamos o projeto de [home](https://gulliver-bootstrap.net
 ### Equipe
 
 * Carlos Henrique Mantovani Sammartin de Abreu
-* Layla Coralina Martinez
 * Marcel Scognamiglio De Campos Lourenço
 
 ### Visualização do projeto
 
 https://gulliver-api.netlify.app/
 
-07 de abril de 2022
+26 de maio de 2022
