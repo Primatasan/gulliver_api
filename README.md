@@ -1,5 +1,7 @@
 # Projeto "Gulliver"
 
+![Home do projeto](https://github.com/Primatasan/gulliver_api/blob/main/print01.png)
+
 ## Update
 Com o objetivo de organizar o projeto no modelo MVC e organização de pastas para receber novas páginas, o projeto foi atualizado no últimos commits.
 
@@ -19,7 +21,10 @@ Usabilidade: aplicada na v1 [Design, logos e defesas](https://drive.google.com/d
 
 Acessibilidade: aplicada na v1 ✔️
 
-## Introdução
+![Home do projeto](https://github.com/Primatasan/gulliver_api/blob/main/print2.png)
+![Home do projeto](https://github.com/Primatasan/gulliver_api/blob/main/print3.png)
+
+## API DOJO
 
 Com o objetivo de atender os objetivos do exercício “Aplicações em Cloud Computing” do curso de sistemas para internet da **FIAP**, implementamos a API [Hotels4](https://apidojo.github.io/#hotels-list), uma API freemium da [ApiDojo](https://apidojo.net/) que fornece dados de hotéis ao redor do mundo, disponibilizando localização, preços, recomendações e outros dados relevantes para o projeto Gulliver.
 
@@ -35,7 +40,6 @@ Para essa entrega, utilizamos o projeto de [home](https://gulliver-bootstrap.net
 
 ### imagem da sessão da pagina com implementação da API:
 
-![magem da sessão da pagina com implementação da API](https://github.com/Primatasan/gulliver_api/blob/8df5d6610a7b7116e1a3f7d45bb3183ffe9b091b/Projeto-Gulliver.png)
 
 ### Equipe
 
