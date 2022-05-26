@@ -47,61 +47,69 @@
     <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="/">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Como se locomover</li>
+        <li class="breadcrumb-item active" aria-current="page">Como chegar</li>
       </ol>
     </nav>
     <!-- Hero com busca e cards de atividades -->
-    <div class="container-fluid  d-grid align-items-center hero" style="background-image: url('/imagens/hero_locomocao.webp')">
+    <div class="container-fluid  d-grid align-items-center hero"
+      style="background-image: url('/imagens/hero_como-chegar.jpeg')">
       <div class="px-4 py-5 my-2 text-center">
-        <h1 class="display-5 fw-bold">Como se locomover</h1>
+        <h1 class="display-5 fw-bold">Como chegar em Lisboa</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Confira os melhores meios de transporte para seu trajeto</p>
+          <p class="lead mb-4">Confira nossas dicas para chegar bem na cidade</p>
         </div>
       </div>
     </div>
     <div class="container-fluid botoes">
       <div class="row row-cols-8 text-center botoes">
-        <a class="col" href="/como-chegar.html">
+        <a class="col" href="/view/como-chegar.html">
           <div class="card-hero">Como chegar</div>
         </a>
-        <a class="col" href="/hospedagem.html">
+        <a class="col" href="/view/hospedagem.html">
           <div class="card-hero">Onde se hospedar</div>
         </a>
-        <a class="col" href="/locomocao.html">
+        <a class="col" href="/view/locomocao.html">
           <div class="card-hero">Como se locomover</div>
         </a>
-        <a class="col" href="/dicas-uteis.html">
+        <a class="col" href="/view/dicas-uteis.html">
           <div class="card-hero botao-dica">O que preciso saber</div>
         </a>
-        <a class="col" href="/entretenimento.html">
+        <a class="col" href="/view/entretenimento.html">
           <div class="card-hero botao-atividade">O que fazer</div>
         </a>
-        <a class="col" href="/restaurantes.html">
+        <a class="col" href="/view/restaurantes.html">
           <div class="card-hero">Onde comer</div>
         </a>
       </div>
     </div>
     <section id="container" class="container-flex home-features">
-      <div class="block3col row mx-5 two-sided">
+      <div class="block3col row  mx-5 two-sided">
         <div class="left">
-        <h3>Há 6 rotas para ir de Lisboa para Aeroporto Lisbon (LIS) de ônibus, metrô, táxi,
-          traslado, limusine ou a pé</h3>
+        <h3>Como chegar em Lisboa – descubra a melhor maneira!</h3>
         <p>A capital de Portugal e a cidade mais populosa do país. Tem uma população de 506 892
           habitantes, dentro dos seus limites administrativos. Na Área Metropolitana de Lisboa, residem 2 821 697
           pessoas (2011), sendo por isso a maior e mais populosa área metropolitana do país. Lisboa é o centro político
           de Portugal, sede do Governo e da residência do chefe de Estado. É o "farol da lusofonia" (Daus): a Comunidade
           dos Países de Língua Portuguesa (CPLP) tem a sua sede na cidade. É ainda a capital mais a ocidente do
           continente europeu na costa atlântica.</p>
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Selecione a origem</option>
+            <option value="1">Brasil</option>
+            <option value="2">Europa</option>
+            <option value="3">Outros lugares do mundo</option>
+          </select>
+          
+          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+            <option selected>Selecione o transporte</option>
+            <option value="1">Avião</option>
+            <option value="2">Navio</option>
+            <option value="3">Ônibus</option>
+          </select>
         </div>
-        <div class="right" style="background-color: rgb(246, 246, 246); padding: 1rem">
-          <div class="trajetos">
-            <h4>Transporte recomendado pelo Gulliver</h4>
-            <figure>
-              <img  src="/imagens/Screen Shot 2022-05-25 at 00.59.38.png" alt="">
-              <img src="/imagens/Screen Shot 2022-05-25 at 00.59.43.png" alt="">
-            </figure>
-            </div>
+        <div class="right">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d199160.00996720494!2d-9.160203!3d38.743627!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1653453089714!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+      </div>
       </div>
 
       <div class="container-flex jumbo text-center">
@@ -110,6 +118,7 @@
           <button class="btn btn-primary btn-lg" type="button">Example button</button>
         </div>
       </div>
+    </div>
     </section>
   </main>
 
@@ -123,7 +132,8 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a>
+            </li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
           </ul>
         </div>
@@ -134,7 +144,8 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a>
+            </li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
           </ul>
         </div>
@@ -145,7 +156,8 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a>
+            </li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
           </ul>
         </div>
@@ -156,7 +168,8 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destaques</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Hospedagens</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas Frequentes</a>
+            </li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre o Gulliver</a></li>
           </ul>
         </div>
@@ -188,13 +201,15 @@
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(function (position) {
         console.log(position);
-        $.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords.latitude + "," +
+        $.get("http://maps.googleapis.com/maps/api/geocode/json?latlng=" + position.coords
+          .latitude + "," +
           position.coords.longitude + "&sensor=false",
           function (data) {
             console.log(data);
           })
         var img = new Image();
-        img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords.latitude + "," +
+        img.src = "https://maps.googleapis.com/maps/api/staticmap?center=" + position.coords
+          .latitude + "," +
           position.coords.longitude + "&zoom=13&size=800x400&sensor=false";
         $('#output').html(img);
       });
