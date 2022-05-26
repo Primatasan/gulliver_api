@@ -455,4 +455,15 @@ a {
         justify-content: center;
     }
 
+    .block3col {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .block {
+        margin-bottom: 30px;
+    }
+    .two-sided {
+        margin: 0 !important;
+    }
+
 }
