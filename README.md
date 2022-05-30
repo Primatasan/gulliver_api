@@ -7,7 +7,7 @@ Com o objetivo de organizar o projeto no modelo MVC e organização de pastas pa
 
 Banco de dados: mySQL [em construção]
 
-Front-end: [Live Site](https://gulliver-bootstrap.netlify.app) ✔️
+Front-end: [Live Site](https://gulliver-api.netlify.app) ✔️
 
 Back-end: JAVA / Spring [em construção]
 
