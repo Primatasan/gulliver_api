@@ -1,0 +1,210 @@
+{
+    "term": "lisboa",
+    "moresuggestions": 10,
+    "autoSuggestInstance": null,
+    "trackingID": "4fed0468833c4b8388f21ea9f40f24ce",
+    "misspellingfallback": false,
+    "suggestions": [
+        {
+            "group": "CITY_GROUP",
+            "entities": [
+                {
+                    "geoId": "2080",
+                    "destinationId": "1063515",
+                    "landmarkCityDestinationId": null,
+                    "type": "CITY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.7123,
+                    "longitude": -9.13833,
+                    "searchDetail": null,
+                    "caption": "Lisbon, Lisbon District, Portugal (<span class='highlighted'>Lisboa</span> Municipality)",
+                    "name": "Lisbon"
+                },
+                {
+                    "geoId": "553248634664651942",
+                    "destinationId": "10972501",
+                    "landmarkCityDestinationId": null,
+                    "type": "CITY",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": -6.906799539834054,
+                    "longitude": -41.20735362396243,
+                    "searchDetail": null,
+                    "caption": "Santo Antônio de <span class='highlighted'>Lisboa</span>, Piaui State, Brazil",
+                    "name": "Santo Antônio de Lisboa"
+                },
+                {
+                    "geoId": "6307709",
+                    "destinationId": "10236717",
+                    "landmarkCityDestinationId": null,
+                    "type": "REGION",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.833477703826446,
+                    "longitude": -9.09734443624224,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>Lisboa</span> Region, Portugal",
+                    "name": "Lisboa Region"
+                }
+            ]
+        },
+        {
+            "group": "HOTEL_GROUP",
+            "entities": [
+                {
+                    "geoId": "856578",
+                    "destinationId": "200412",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.73781,
+                    "longitude": -9.16574,
+                    "searchDetail": null,
+                    "caption": "Mercure <span class='highlighted'>Lisboa</span> Hotel, Lisbon, Lisbon District, Portugal",
+                    "name": "Mercure Lisboa Hotel"
+                },
+                {
+                    "geoId": "22206",
+                    "destinationId": "117492",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.7487,
+                    "longitude": -9.14944,
+                    "searchDetail": null,
+                    "caption": "NH <span class='highlighted'>Lisboa</span> Campo Grande, Lisbon, Lisbon District, Portugal",
+                    "name": "NH Lisboa Campo Grande"
+                },
+                {
+                    "geoId": "560941",
+                    "destinationId": "192291",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.703425,
+                    "longitude": -9.186804,
+                    "searchDetail": null,
+                    "caption": "Pestana Palace <span class='highlighted'>Lisboa</span>, Lisbon, Lisbon District, Portugal",
+                    "name": "Pestana Palace Lisboa"
+                },
+                {
+                    "geoId": "519042",
+                    "destinationId": "175202",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.72569,
+                    "longitude": -9.15561,
+                    "searchDetail": null,
+                    "caption": "Four Seasons Hotel Ritz Lisbon, Lisbon, Lisbon District, Portugal",
+                    "name": "Four Seasons Hotel Ritz Lisbon"
+                },
+                {
+                    "geoId": "19444577",
+                    "destinationId": "623226464",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.72409,
+                    "longitude": -9.15243,
+                    "searchDetail": null,
+                    "caption": "Iberostar Selection <span class='highlighted'>Lisboa</span>, Lisbon, Lisbon District, Portugal",
+                    "name": "Iberostar Selection Lisboa"
+                },
+                {
+                    "geoId": "523308",
+                    "destinationId": "230421",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.72012,
+                    "longitude": -9.14499,
+                    "searchDetail": null,
+                    "caption": "NH Collection <span class='highlighted'>Lisboa</span> Liberdade, Lisbon, Lisbon District, Portugal",
+                    "name": "NH Collection Lisboa Liberdade"
+                },
+                {
+                    "geoId": "17184732",
+                    "destinationId": "654794",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.71255,
+                    "longitude": -9.14147,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>Lisboa</span> Pessoa Hotel, Lisbon, Lisbon District, Portugal",
+                    "name": "Lisboa Pessoa Hotel"
+                },
+                {
+                    "geoId": "33799119",
+                    "destinationId": "1082571808",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.711,
+                    "longitude": -9.13566,
+                    "searchDetail": null,
+                    "caption": "Casual Belle Epoque <span class='highlighted'>Lisboa</span>, Lisbon, Lisbon District, Portugal",
+                    "name": "Casual Belle Epoque Lisboa"
+                },
+                {
+                    "geoId": "12016492",
+                    "destinationId": "542711",
+                    "landmarkCityDestinationId": null,
+                    "type": "HOTEL",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.727499,
+                    "longitude": -9.158573,
+                    "searchDetail": null,
+                    "caption": "Lux <span class='highlighted'>Lisboa</span> Park, Lisbon, Lisbon District, Portugal",
+                    "name": "Lux Lisboa Park"
+                }
+            ]
+        },
+        {
+            "group": "LANDMARK_GROUP",
+            "entities": [
+                {
+                    "geoId": "553248621562515220",
+                    "destinationId": "10667001",
+                    "landmarkCityDestinationId": "1063515",
+                    "type": "LANDMARK",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.707832,
+                    "longitude": -9.135667,
+                    "searchDetail": null,
+                    "caption": "<span class='highlighted'>Lisboa</span> Story Centre, Lisbon, Lisbon District, Portugal",
+                    "name": "Lisboa Story Centre"
+                }
+            ]
+        },
+        {
+            "group": "TRANSPORT_GROUP",
+            "entities": [
+                {
+                    "geoId": "5458252",
+                    "destinationId": "1663913",
+                    "landmarkCityDestinationId": null,
+                    "type": "AIRPORT",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.769457,
+                    "longitude": -9.128802,
+                    "searchDetail": null,
+                    "caption": "Lisbon, Portugal (LIS-Humberto Delgado)",
+                    "name": "Lisbon (LIS-Humberto Delgado)"
+                },
+                {
+                    "geoId": "6242475",
+                    "destinationId": "1758136",
+                    "landmarkCityDestinationId": null,
+                    "type": "METRO_STATION",
+                    "redirectPage": "DEFAULT_PAGE",
+                    "latitude": 38.768736,
+                    "longitude": -9.128363,
+                    "searchDetail": null,
+                    "caption": "Lisbon Airport Station, Lisbon, Lisbon District, Portugal",
+                    "name": "Lisbon Airport Station"
+                }
+            ]
+        }
+    ],
+    "geocodeFallback": false
+}
